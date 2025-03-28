@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluesplash"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bus2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash"
+        android:text="@string/welcome_to_latur_bus_timetable"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/created_by_sontakke_b"
+        android:textSize="10pt"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="150dp"
+        />
+
+
+</LinearLayout>

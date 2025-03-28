@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/smoke"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MiddleActivity"
+    android:orientation="vertical">
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:id="@+id/listoftimetable"
+    android:text="@string/list_of_timetable"
+    android:textSize="25sp"
+    android:background="@color/rgb"
+    />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/black"
+        android:id="@+id/btngolai"
+        android:layout_width="300dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_effect2"
+        android:layout_marginTop="40dp"
+        android:text="@string/Golai"
+        android:textSize="30sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/black"
+        android:id="@+id/btngandhichauk"
+        android:layout_width="300dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_effect2"
+        android:layout_marginTop="40dp"
+        android:text="@string/Gandhi_Chauk"
+        android:textSize="30sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/black"
+        android:id="@+id/btnrenapurnaka"
+        android:layout_width="300dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_effect2"
+        android:layout_marginTop="40dp"
+        android:text="@string/Renapur_BusStand"
+        android:textSize="30sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/black"
+        android:id="@+id/btncitybus"
+        android:layout_width="300dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_effect2"
+        android:layout_marginTop="40dp"
+        android:text="@string/city_bus_latur"
+        android:textSize="30sp"
+        />
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="80sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_journey"
+        />
+
+</LinearLayout>

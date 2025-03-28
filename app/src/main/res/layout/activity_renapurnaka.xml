@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timetable"
+    tools:context=".Renapurnaka">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/renapur_naka_bus_stand"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/rgb"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        />
+
+    <SearchView
+        android:inputType="number|text"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/searchrenapurnaka"
+        android:background="@drawable/border2"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30dp"
+        android:id="@+id/listrenapurnaka"
+    />
+
+</LinearLayout>

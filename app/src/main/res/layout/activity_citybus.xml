@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/timetable"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Renapurnaka">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city_bus_latur_timetable"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/rgb"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        />
+
+    <SearchView
+        android:inputType="number|text"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/searchcitybus"
+        android:background="@drawable/border3"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30dp"
+        android:id="@+id/listcitybus"
+        />
+
+</LinearLayout>
